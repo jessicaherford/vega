@@ -1,0 +1,4 @@
+Select * from Makes;
+Select * from Models;
+
+SELECT * FROM INFORMATION_SCHEMA.COLUMNS;

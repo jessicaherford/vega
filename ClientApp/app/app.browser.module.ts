@@ -1,3 +1,4 @@
+import { MakeService } from './services/make.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppModuleShared } from './app.shared.module';
@@ -10,6 +11,7 @@ import { AppComponent } from './components/app/app.component';
         AppModuleShared
     ],
     providers: [
+        MakeService,
         { provide: 'BASE_URL', useFactory: getBaseUrl }
     ]
 })
